@@ -1,4 +1,6 @@
+# name: te zien in menu met overzicht workflows
 name: Maven CI/CD
+# run-name: titel bij specifieke workflow run --> gebruikt specifiek user account
 run-name: ${{ github.actor }} started Maven workflow
 
 on: [push]
